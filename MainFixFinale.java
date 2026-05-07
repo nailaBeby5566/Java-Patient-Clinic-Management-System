@@ -77,6 +77,19 @@ static ArrayList<Patient> patients = new ArrayList<>();
         System.out.print("Kunjungan ke: ");
         int visitCount = Integer.parseInt(input.nextLine());
         patients.add(new Patient(id, name, cat, active, visitCount));
+
+        try {
+            FileWriter writer = new FileWriter("data.csv", true);
+
+            writer.write(id + "," + name + "," + "cat" + "," + "active" + "," + "visitCount" + "," + "\n");
+
+            writer.close();
+
+            System.out.println("Data berhasil disimpan!");
+
+        } catch(IOException e) {
+            System.out.println("Error.");
+        }
     }
 
     static void showAll() {
