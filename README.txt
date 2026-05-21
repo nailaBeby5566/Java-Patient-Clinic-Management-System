@@ -1,11 +1,10 @@
-# clinic-management-system-java
+clinic-management-system-java
 
 A simple Java-based Clinic Management System for managing patient data using CRUD operations, searching, sorting algorithms, and file handling (CSV).
 
 ---
 
-## Features
-
+Features
 - Add new patient data (Create)
 - Display all patient records (Read)
 - Edit patient information (Update)
@@ -21,16 +20,14 @@ A simple Java-based Clinic Management System for managing patient data using CRU
 
 ---
 
-## Tech Stack
-
+Tech Stack:
 - Java (OOP)
 - File Handling (CSV)
 - Basic Data Structures & Algorithms
 
 ---
 
-## Project Structure
-
+Project Structure:
 MainFixFinale.java
 Patient.java  
 README.md  
@@ -38,7 +35,7 @@ data.csv
 
 ---
 
-## How to Run
+How to Run:
 
 1. Open project in any Java IDE (IntelliJ / Eclipse / NetBeans)
 2. Run `Main.java`
@@ -46,8 +43,7 @@ data.csv
 
 ---
 
-## Purpose
-
+Purpose:
 This project was created to practice:
 - Object-Oriented Programming (OOP)
 - CRUD system implementation
@@ -56,7 +52,7 @@ This project was created to practice:
 
 ---
 
-##Contributors
+Contributors:
 - Meyla Sabrina
 - Beby Naila Putri
 - Marsya Bella Puspita Rizky
