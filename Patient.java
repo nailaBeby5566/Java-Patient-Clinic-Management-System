@@ -9,12 +9,14 @@ public class Patient {
         this.id = id;
         this.name = name;
         this.category = category;
-        this.active = true;
+        this.active = active;
         this.visitCount = visitCount;
     }
 
     public void display() {
-        System.out.println("ID: " + id + " | Nama: " + name + " | Kategori: " + category + " | Status: " + (active ? "Aktif" : "Nonaktif") +
-                " | Kunjungan: " + visitCount);
+        String statusTeks = active ? "Aktif" : "Nonaktif";
+        System.out.printf("ID: %-4d | Nama: %-15s | Kategori: %-10s | Status: %-10s | Kunjungan: %-3d\n", id, name, category, statusTeks, visitCount);
     }
+
 }
+  
