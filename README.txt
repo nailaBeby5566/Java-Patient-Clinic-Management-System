@@ -57,4 +57,3 @@ Contributors:
 - Beby Naila Putri
 - Marsya Bella Puspita Rizky
 - Azkiya Aulia Hidayah
-                  
