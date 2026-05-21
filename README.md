@@ -31,10 +31,10 @@ A simple Java-based Clinic Management System for managing patient data using CRU
 
 ## Project Structure
 
-.gitignore  
-Main.java  
+MainFixFinale.java
 Patient.java  
 README.md  
+data.csv
 
 ---
 
@@ -56,6 +56,8 @@ This project was created to practice:
 
 ---
 
-## Author
-
-Sabrina (Information Systems Student)
+##Contributors
+- Meyla Sabrina
+- Beby Naila Putri
+- Marsya Bella Puspita Rizky
+- Azkiya Aulia Hidayah
