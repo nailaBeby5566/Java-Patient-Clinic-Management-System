@@ -169,7 +169,6 @@ public class MainSistem {
                 p.active= Boolean.parseBoolean(input.nextLine());
                 System.out.print("Jumlah kunjungan baru: ");
                 p.visitCount = Integer.parseInt(input.nextLine());
-
                 break;
             }
         }
